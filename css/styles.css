@@ -1,0 +1,77 @@
+h1
+{
+    font-size:72px;
+}
+hr
+{
+    height:10px;
+    color:white;
+    background-color: black;
+    border:none;
+}
+nav
+{
+    font-family:'Roboto Slab', sans-serif;
+    background-color: aquamarine;
+    color:blueviolet;
+    font-weight: 900;
+    font-size:20px;
+    padding: 1%;
+}
+header
+{
+    font-family:'Open Sans', sans-serif;
+    background-color: orange;
+    color:white;
+    font-weight: 900;
+    padding: 1%;
+}
+
+#text-main
+{
+    font-family:'Comfortaa', sans-serif;
+    background-color: red;
+    color:white;
+    padding: 1%;
+}
+#text-mark
+{
+    font-family:'Comfortaa', sans-serif;
+    background-color: lightgray;
+    padding: 1%;
+}
+#graph-elements
+{
+    font-family:'Roboto', sans-serif;
+    background-color: blue ;
+    font-weight: 900;
+    color:white;
+    padding: 1%;
+}
+#page-structure
+{
+    font-family:'Open Sans', sans-serif;
+    background-color: purple;
+    font-weight: 900;
+    color:white;
+    padding: 1%;
+}
+#page-structure:hover,#graph-elements:hover,nav:hover,header:hover,#text-mark:hover,#text-main:hover
+{
+    background-color: white;
+    transition: 1s;
+    color:black;
+}
+.nav-list
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
